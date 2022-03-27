@@ -200,7 +200,7 @@ var TWOafc_playtwo = {
 
 var TWOafc_choice = {
 	type: 'html-button-response',
-	stimulus:'<p> Which sound belongs to the stream you heard earlier? (Press the corresponding number)</p>',
+	stimulus:'<p> Which sound was the most familiar? (Press the corresponding number)</p>',
 	choices: ['1','2'],
 	data: {
 		designation: 'AFC_RESPONSE',
@@ -275,7 +275,7 @@ var FOURafc_playfour = {
 //afc judgement screen
 var FOURAFC_choice = {
 	type: 'html-button-response',
-	stimulus:'<p> Which sound belongs to the stream you heard earlier? (Press the corresponding number)</p>',
+	stimulus:'<p> Which sound was the most familiar? (Press the corresponding number)</p>',
 	choices: ['1','2','3','4'],
 	data: {
 		designation: 'AFC_RESPONSE',
@@ -289,7 +289,7 @@ var FOURAFC_choice = {
 	},
 	on_finish: function(data) {
 		var button_pressed = data.button_pressed;
-		if (button_pressed == data.correct) {
+		if (button_pressed == data.correctanswer) {
 			data.correct = 1;
 		} else {
 			data.correct = 0;
