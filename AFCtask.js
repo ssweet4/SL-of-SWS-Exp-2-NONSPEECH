@@ -213,7 +213,7 @@ var TWOafc_choice = {
 	},
 	on_finish: function(data) {
 		var button_pressed = data.button_pressed; ////////
-		if (button_pressed == data.correct) {
+		if (button_pressed == data.correctanswer) {
 			data.correct = 1;
 		} else {
 			data.correct = 0;
