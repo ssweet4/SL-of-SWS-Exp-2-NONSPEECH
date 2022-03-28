@@ -208,7 +208,7 @@ var TWOafc_choice = {
 		word2: function(){return twoAFC_array[twoafc_count].word2;},
 		transitionalpr: function(){return twoAFC_array[twoafc_count].tptype;},
 		length: function(){return twoAFC_array[twoafc_count].length;},
-		troal: function(){return twoAFC_array[twoafc_count].trialnumber;},
+		trial: function(){return twoAFC_array[twoafc_count].trialnumber;},
 		correctanswer: function(){return twoAFC_array[twoafc_count].correct;}
 	//	transitionalpr: function(){return twoAFC_array[twoafc_count].tptype;} ////
 	},
